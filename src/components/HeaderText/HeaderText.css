@@ -81,6 +81,7 @@ hr {
     width: auto;
     padding: 13px 20px;
     font-weight: bold;
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
