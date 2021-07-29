@@ -19,7 +19,7 @@ const headerText = (props) => (
 
         <Fade bottom duration={2000}>
             <div className={classes.Buttons}>
-                <a className="btn btn-lg">
+                <a href="https://github.com/laxanarana1513/my-portfolio" className="btn btn-lg" target="_blank" rel="noopener noreferrer">
                     
                     <img src="https://img.icons8.com/metro/18/ffffff/book.png" alt="" />
                     Project
