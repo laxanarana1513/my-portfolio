@@ -1,0 +1,21 @@
+.Certi{
+    padding: 4px;
+    text-align: center;
+}
+
+.Certi h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.Cbutton{
+    margin-bottom: 15px;
+    padding: 11px 18px;
+    color: white;
+    background-color: darkred;
+    border: none;
+}

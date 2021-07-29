@@ -1,0 +1,143 @@
+.Works {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.Row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.Row::before, .Row::after {
+    content: " ";
+    display: table;
+}
+
+.H1{
+    font: 18px/24px 'opensans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e0766;
+}
+
+.Wrap{
+    margin:40px auto 0;
+    width:100%;
+    display:flex;
+    align-items:space-around;
+    max-width:1020px;
+}
+
+.Title{
+    width:380px;
+    height:208px;
+    margin:10px;
+    background-color:#99aeff;
+    display:inline-block;
+    background-size:cover;
+    position:relative;
+    cursor:pointer;
+    transition: all 0.4s ease-out;
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+    /* overflow:hidden; */
+    color:white;
+    font-family:'Roboto';
+}
+
+.Title .Timg{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+    transition: all 0.4s ease-out;
+}
+
+.Text{
+    position:absolute;
+    padding:30px;
+    height:calc(100% - 60px);
+}
+
+.Title h1{
+    font-weight:300;
+    margin:0;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.Title h2{
+    font-weight:bold;
+    font-size: 19px;
+    text-align: center;
+    margin:20px 0 0 0;
+    font-style:italic;
+    transform: translateX(200px);
+}
+
+.Title p{
+    font-weight:300;
+    margin:20px 0 0 0;
+    line-height: 25px;
+    text-align: center;
+    transform: translateX(-200px);
+    transition-delay: 0.2s;
+}
+
+.Animate_Text{
+    opacity:0;
+    transition: all 0.6s ease-in-out;
+}
+
+.Title:hover{
+    box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+    transform:scale(1.05);
+}
+
+.Title:hover .Timg{
+    opacity: 0.2;
+}
+
+.Title:hover .Animate_Text{
+    transform:translateX(0);
+    opacity:1;
+}
+
+@media (max-width: 800px) {
+    .Wrap {
+        flex-direction: column;
+        width:400px;
+    }
+}
+
+@media (max-width: 430px) {
+    .Wrap {
+        margin: 40px 23px 0px 23px;
+        width:200px;
+    }
+}
+@media (max-width: 430px){
+    .Title{
+        width: 308px;
+        margin: 10px 8px;
+    }
+}
+
+@media (max-width: 389px) {
+    .Wrap {
+        
+        width:200px;
+    }
+}
+@media (max-width: 389px){
+    .Title{
+        width: 258px;
+        margin: 10px 4px;
+    }
+}
+
+

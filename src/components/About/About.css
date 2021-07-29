@@ -1,0 +1,103 @@
+.About{
+    background: #000524;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+.Row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.Row::before, .Row::after {
+    content: " ";
+    display: table;
+}
+
+@media (max-width: 800px) {
+    .Row {
+        width: 460px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media (max-width: 524px) {
+    .Row {
+        width: auto;
+        
+    }
+}
+
+.Three {
+    width: 25%;
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+
+.Pic {
+    position: relative;
+    width: 120px;
+    height: 136px;
+    border-radius: 100%;
+}
+
+@media (max-width: 800px) {
+    .Three {
+        display: none;
+    }
+}
+
+.WriteUp {
+    padding-right: 5%;
+    width: 75%;
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: right;
+}
+
+.WriteUp h2{
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.WriteUp p{
+    font-family: 'Libre Baskerville', serif;
+    color: #ccc;
+    line-height: 30px;
+}
+
+@media (max-width: 800px) {
+    .WriteUp {
+        float: none;
+        width: 100%;
+    }
+}
+
+.Contact{
+    width: 41%;
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+
+@media(max-width: 800px) {
+    .Contact{
+        width: 50%;
+    }
+    
+}
+@media(max-width: 940px) {
+    .Contact{
+        width: 100%;
+    }
+    
+}

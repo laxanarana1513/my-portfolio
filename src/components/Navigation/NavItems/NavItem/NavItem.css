@@ -1,0 +1,69 @@
+.NavItem{
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+.NavItem a{
+    
+    /* color: #661106; */
+    /* color: white; */
+    color: #ed690b;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.NavItem a:hover, .NavItem Link:active,
+.NavItem Link.active{
+    /* color: #ed690b; */
+    color: cyan;
+}
+
+.active{
+    /* color: #ed690b; */
+    color: cyan;
+    text-decoration: none;
+}
+
+@media (min-width: 500px){
+    .NavItem{
+        margin: 0;
+        width: auto;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .NavItem a{
+        /* color: white; */
+        color: #ed690b;
+        text-decoration: none;
+        height: 100%;
+        padding: 16px 10px;
+        font-size: 15px;
+        /* border-bottom: 4px solid transparent; */
+        
+    }
+    
+    .NavItem a:hover, .NavItem Link:active,
+    .NavItem Link.active{
+        /* background-color: #8F5C2C; */
+        /* color: #ed690b; */
+        color: cyan;
+        text-decoration: none;
+        /* border-bottom: 4px solid #40A4C8; */
+    }
+    .active{
+        /* color: #ed690b; */
+        color: cyan;
+        text-decoration: none;
+    }
+}

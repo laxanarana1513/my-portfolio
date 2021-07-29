@@ -1,0 +1,44 @@
+.Aside{
+    /* width: 33.33333%; */
+    position: relative;
+    padding: 0 0px;
+    min-height: 1px;
+}
+
+h4{
+    font: 18px/24px 'Baloo Bhai 2', cursive;
+    color: #EBEEEE;
+    margin-bottom: 6px;
+    font-weight: bold;
+    /* text-align: initial; */
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+    line-height: 24px;
+    /* text-align: initial; */
+}
+
+.Address{
+    text-align: initial;
+    padding-left: 20px;
+    margin-bottom: 22px;
+}
+@media(max-width: 1192px){
+    .Address{
+        padding-left: 0px;
+    }
+}
+@media(max-width: 768px){
+    .Address{
+        text-align: center;
+    }
+}
+
+.Map{
+    text-align: initial;
+}
+@media(max-width: 768px){
+    .Map{
+        text-align: center;
+    }
+}

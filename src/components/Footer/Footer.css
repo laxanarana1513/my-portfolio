@@ -1,0 +1,66 @@
+.Footer{
+    padding-top: 48px;
+    /* margin-bottom: 48px; */
+    color: #303030;
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 48px;
+}
+
+.Row{
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.Row::before, .Row::after {
+    content: " ";
+    display: table;
+}
+
+.Links{
+    margin: 18px 0 30px 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.Links li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #F06000;
+    margin-left: 25px
+}
+
+.Footer a, .Footer a:visited{
+    color: #525252;
+}
+
+.Copyright{
+    margin: 0;
+    padding: 0;
+}
+
+.Copyright li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.SubLi::before{
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #095153;
+}
+
+.Top{
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -30px;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.Experience{
+    background: #fff;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+.row::before, .row::after {
+    content: " ";
+    display: table;
+}
+
+.Experience h3{
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.Span {
+    border-bottom: 3px solid #0762f9;
+    padding-bottom: 6px;
+}

@@ -1,0 +1,82 @@
+.Contact{
+    background: #191919;
+    padding-top: 96px;
+    padding-bottom: 102px;
+    color: #636363;
+}
+
+.row{
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.row::before, .row::after {
+    content: " ";
+    display: table;
+}
+
+@media(max-width: 768px){
+    .row{
+        flex-flow: column;
+    }
+}
+
+.HSpan{
+    display: none;
+    font: 18px/24px 'Baloo Bhai 2', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #EBEEEE;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .Img{
+        display: none;
+    }
+    .HSpan{
+        display: block;
+    }
+}
+
+.Lead{
+    font: 18px/36px 'opensans-light', sans-serif;
+    padding-right: 3%;
+}
+
+.Columns{
+    width: 100%;
+    position: relative;
+    padding: 0 15px;
+    min-height: 1px;
+    float: left;
+}
+
+.Button{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #0D0D0D;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    border-radius: 0px;
+    margin-left: 26%;
+    padding: 15px 22px;
+    font-weight: bold;
+}
+.Button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* @media (max-width: 900px) {
+    .subrow{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */

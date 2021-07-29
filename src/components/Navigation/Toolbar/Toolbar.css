@@ -1,0 +1,94 @@
+.Header {
+    /* height: 565px; */
+    height: 721px;
+    /* margin-top: 9.8rem; */
+    padding-top: 9.8rem;    
+}
+
+
+
+
+/* @media (min-width: 375px) {
+    .Header {
+        height: 489px;
+    }
+} */
+
+.Toolbar{
+    height: 56px;
+    /* height: 722px; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: #580202; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Toolbar nav{
+    height: 96%;
+}
+
+.A{
+    position: absolute;
+    bottom: 57px;
+    left: 50%;
+    margin-left: -29px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+@media(max-width: 768px){
+    .A{
+        display: none;
+    }
+}
+
+
+@media (max-width: 499px){
+    .DesktopOnly{
+        display: none;
+        
+    }
+
+    .Toolbar{
+        justify-content: left;
+    }
+
+    .A{
+        display: none;
+    }
+}
+
+.link{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+    transition: all .3s ease-in-out;
+}
+
+@media(max-width: 378px){
+    .scrollbar img{
+        display: none;
+    }
+}

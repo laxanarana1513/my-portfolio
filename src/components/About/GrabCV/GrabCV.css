@@ -1,0 +1,83 @@
+.Stats {
+    background-image: url(../../../assests/images/CV.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Stats::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1f262e;
+    z-index: 2;
+    opacity: .60;
+}
+
+.Cv{
+    /* color: white; */
+    text-align: center;
+    z-index: 10;
+}
+
+.Cv h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 32px;
+}
+@media (max-width: 780px){
+    .Cv h3{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 589px){
+    .Cv h3{
+        font-size: 27px;
+    }
+
+}
+@media (max-width: 515px){
+    .Cv h3{
+        font-size: 23px;
+    }
+
+}
+@media (max-width: 495px){
+    .Cv h3{
+        font-size: 20px;
+    }
+
+}
+
+.Cv button{
+    margin: 27px 12px;
+    border-radius: inherit;
+    background-color: #720505;
+    color: white;
+    width: auto;
+    padding: 13px 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.Cv button:hover{
+    color: white;
+}
+
+@media (max-width: 495px) {
+    .Cv button {
+        font-size: 15px;
+    }
+}

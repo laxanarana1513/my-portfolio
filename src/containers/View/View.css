@@ -1,0 +1,14 @@
+.Content{
+    margin-top: 65px;
+}
+@media (max-width: 378px) {
+    .Content {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 360px) {
+    .Content {
+        margin-top: 0px;
+    }
+}
+
