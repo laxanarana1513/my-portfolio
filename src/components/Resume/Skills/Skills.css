@@ -6,7 +6,6 @@
 .Item {
     padding: 0 4px 20px 4px;
     margin-top: -2px;
-    /* border-left: 2px solid #34b7a7; */
     position: relative;
 }
 
@@ -24,231 +23,21 @@
     height: auto;
 }
 
-.CodeconSkillbar {
-    width: 75%;
-    height: 40px;
-    position: relative;
-    background: rgba(17, 17, 17, .3);
-    /* margin: 20px auto; */
-    margin: 20px auto 20px 0px;
+
+.Skill{
+    width: 100px;
+    height: 100px;
+    margin: 16px 13px;
+    padding: 5px 0px;
+    border-radius: 0%;
+    box-shadow: 0px 2px 5px 3px lightgrey;
+    background-color: #ffff;
+    text-align: center;
 }
 
-@media(max-width: 766px) {
-    .CodeconSkillbar{
-        margin: 18px auto;
-        width: 90%;
-    }
-}
-
-.CodeconHTML {
-    width: 100%;
-    animation: Animate-HTML 4s;
-    height: 40px;
-    position: absolute;
-    background-color: #ea8564;
-}
-
-@keyframes Animate-HTML {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 100%
-    }
-}
-
-.CodeconCSS {
-    animation: Animate-CSS 5s;
-    width: 98%;
-    height: 40px;
-    position: absolute;
-    background-color: #55a69f;
-}
-
-@keyframes Animate-CSS {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 98%
-    }
-}
-
-.CodeconReact {
-    animation: Animate-React 5s;
-    width: 80%;
-    height: 40px;
-    position: absolute;
-    background-color: #99856d;
-}
-@keyframes Animate-React {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 80%
-    }
-}
-
-.CodeconJS {
-    animation: Animate-JS 4s;
-    width: 75%;
-    height: 40px;
-    position: absolute;
-    background-color: #c44e45;
-}
-@keyframes Animate-JS {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 75%
-    }
-}
-
-.CodeconCC {
-    animation: Animate-CC 4s;
-    width: 89%;
-    height: 40px;
-    position: absolute;
-    background-color: #5aa669;
-}
-@keyframes Animate-CC {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 89%
-    }
-}
-
-.CodeconC {
-    animation: Animate-C 4s;
-    width: 89%;
-    height: 40px;
-    position: absolute;
-    background-color: #970cc1;
-}
-@keyframes Animate-C {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 89%
-    }
-}
-
-.CodeconJAVA {
-    animation: Animate-JAVA 4s;
-    width: 65%;
-    height: 40px;
-    position: absolute;
-    background-color: #8e930c;
-}
-@keyframes Animate-JAVA {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 65%
-    }
-}
-
-.CodeconPython {
-    animation: Animate-Python 4s;
-    width: 50%;
-    height: 40px;
-    position: absolute;
-    background-color: #5A69A6;
-}
-@keyframes Animate-Python {
-    from {
-        width: 10px;
-    }   
-    to {
-        width: 50%
-    }
-}
-
-.CodeconSQL {
-    animation: Animate-SQL 4s;
-    width: 90%;
-    height: 40px;
-    position: absolute;
-    background-color: #23b1db;
-}
-@keyframes Animate-SQL {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 90%
-    }
-}
-
-.CodeconAlgo {
-    animation: Animate-Algo 4s;
-    width: 75%;
-    height: 40px;
-    position: absolute;
-    background-color: #f8a51e;
-}
-@keyframes Animate-Algo {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 75%
-    }
-}
-
-.CodeconCyber{
-    animation: Animate-Cyber 4s;
-    width: 50%;
-    height: 40px;
-    position: absolute;
-    background-color: #dd0bc1;
-}
-@keyframes Animate-Cyber {
-    from {
-        width: 10px;
-    }
-    to {
-        width: 50%
-    }
-}
-
-.CodeconSkillArea {
-    z-index: 1;
-    float: left;
-    /* position: absolute; */
-    margin-top: 12px;
-    margin-left: 15px;
-    text-shadow: none;
-    color: #fff;
-    font-family: 'Baloo Bhai 2', cursive;
-    font-size: 18px;
-}
-
-.PercentText {
-    z-index: 3;
-    position: relative;
-    padding-right: 15px;
-    margin-top: 12px;
-    float: right;
-    text-shadow: none;
-    color: #fff;
-    font-family: 'Baloo Bhai 2', cursive;
-    font-size: 18px;
-}
-
-@media(max-width: 700px) {
-    .CodeconSkillArea, .PercentText{
-        font-size: 16px;
-    }
-}
-@media(max-width: 434px) {
-    .CodeconSkillArea, .PercentText{
-        font-size: 14px;
-    }
+.Skill img{
+    width: 95px;
+    height: 89px;
+    border-radius: inherit;
+    margin: 0px;
 }
