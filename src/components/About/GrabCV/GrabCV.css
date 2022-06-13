@@ -36,6 +36,13 @@
     letter-spacing: 3px;
     font-size: 32px;
 }
+
+.Cv a{
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
 @media (max-width: 780px){
     .Cv h3{
         font-size: 30px;
