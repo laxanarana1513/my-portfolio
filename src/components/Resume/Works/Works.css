@@ -29,11 +29,11 @@
     width:100%;
     display:flex;
     align-items:space-around;
-    max-width:1020px;
+    /* max-width:1020px; */
 }
 
 .Title{
-    width:380px;
+    width:327px;
     height:208px;
     margin:10px;
     background-color:#99aeff;
