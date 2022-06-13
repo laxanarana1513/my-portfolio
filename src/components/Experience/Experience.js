@@ -43,12 +43,11 @@ class experience extends React.Component {
                         <div className="col-md-9">
                             <div className={classs.Item}>
                                 <h4 className={classs.SubHead}>VERZEO Internship Program with MNCs, Autodesk & Google Adwords</h4>
-                                <h5 className={classs.SubLower}>2 months (July, 2021 & August, 2021)</h5>
+                                <h5 className={classs.SubLower}>1 month (July, 2021 & August, 2021)</h5>
                                 <p className={classs.SubPara}><em>Domain: Web Development</em></p>
                                 <p style={{ fontFamily: `sans-serif` }}>
-                                    First month: Training in practical and industrial knowledge of above mentioned domain.
-                                    <br />
-                                    Second month: 2 projects, minor and major.
+                                    Training in practical and industrial knowledge of above mentioned domain. Minor Project Creation of static resume website using only HTML, CSS, Bootstrap
+                                    
                                 </p>
                                 <button style={{ border: "none", backgroundColor: 'white' }}
                                     onClick={this.modalHandler}>
