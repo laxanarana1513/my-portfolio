@@ -86,13 +86,13 @@ const works = () => {
                                 {/* <h1>Lorem ipsum.</h1> */}
                                 <h2 className={classes.Animate_Text}>WebChat Application: A chatting app</h2>
                                 <p className={classes.Animate_Text}>
-                                    <a href="https://github.com/laxanarana1513/Housify_House_Price_Predictor" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/laxanarana1513/WebChat" target="_blank" rel="noopener noreferrer">
                                         <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="" />
                                     </a>
 
-                                    {/* <a href="" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://laxanarana1513.github.io/WebChat/" target="_blank" rel="noopener noreferrer">
                                         <img src="https://img.icons8.com/glyph-neue/30/ffffff/link.png" alt="" />
-                                    </a> */}
+                                    </a>
                                 </p>
                                 <div className="dots">
                                     <span></span>
